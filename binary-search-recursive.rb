@@ -6,7 +6,7 @@ def recursive_binary_search(array, low, high, key)
       return "value not found"
     end
   else
-    mid = ((low + high) / 2).floor
+    mid = (low + high) / 2
     if array[mid] == key
       return mid
     elsif key < array[mid]

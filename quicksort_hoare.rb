@@ -7,7 +7,7 @@ def quicksort(array, lo = 0, hi = array.length - 1)
 end
 
 def partition(array, lo, hi)
-  pivot = array[((hi + lo)/2).floor]
+  pivot = array[(hi + lo)/2]
   while lo <= hi
     lo += 1 while array[lo] < pivot
 

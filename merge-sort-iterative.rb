@@ -1,3 +1,5 @@
+# Two-way merge sort algorithm
+
 def merge_sort(a, b, m, n)
 i, j, k = 0, 0, 0
 c = []
