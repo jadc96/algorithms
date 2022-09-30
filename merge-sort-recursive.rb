@@ -17,7 +17,7 @@ def merge(array, low, mid, high)
     first_array[i] = array[low + i]
   end
 
-  for i in 0...n          # pourquoi reprendre à 0, les éléments n'ont pas été supprimés du tableau ?
+  for i in 0...n
     second_array[i] = array[mid+1 + i]
   end
 
